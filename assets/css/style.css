@@ -76,6 +76,34 @@ footer {
     padding: 20px;
 }
 
+form label {
+    font-size: 18px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    display: block;
+    margin: 5px 0 20px 0;
+    border: 2px solid #ccc;
+    padding: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    height: 200px;
+
+}
+
+form button {
+    background: #4aaaa5;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    font-size: 18px;
+    border: none;
+}
+
 
 .wrapper {
     width: 960px;
@@ -102,6 +130,8 @@ footer {
 
 }
 
+
+
 #left-column {
     background: white;
     padding: 25px;
@@ -116,5 +146,3 @@ footer {
     margin-bottom: 20px;
 
 }
-
-
