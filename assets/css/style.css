@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("../images/memphis-colorful.png") repeat;
+    background: url("../images/folk-pattern-black.png") repeat;
     font-family: Arial, Helvetica, sans-serif;
     overflow: auto;
     color: #777;
@@ -123,6 +123,8 @@ form button {
     height: 200px;
 }
 
+
+
 .clearfix {
     display: block;
     visibility: hidden;
@@ -132,10 +134,11 @@ form button {
 
 
 
+
 #left-column {
     background: white;
     padding: 25px;
-    border: 2px solid #ccc;
+    border: 2px solid #dddddd;
     width: 100%;
     float: left;
 }
@@ -145,4 +148,39 @@ form button {
     padding: 15px 0;
     margin-bottom: 20px;
 
+}
+
+/* Portfolio */
+
+.portfolio-item {
+    position: relative;
+    display: inline-block;
+    margin-right: 300px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item-even {
+    position: relative;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h4 {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    top: 3cm;
+}
+
+.portfolio-item-even h4 {
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    top: 3cm;
 }
